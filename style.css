@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,span,p{
+    background-color: brown;
+}
+p{
+    display: inline;
+}
+span{
+    display: block;
+}
+label{
+    display: inline-block;
+    width: 50px;
+}
+@media(max-width:780px){
+label{
+    display: block;
+    
+}
+}
